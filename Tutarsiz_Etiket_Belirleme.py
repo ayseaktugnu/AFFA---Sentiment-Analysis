@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from tqdm import tqdm
 
 #-------Veri setini oku
-df = pd.read_csv(r"C:\Users\aaktug\Desktop\DuyguAnalizi\1_orjinalVeri.csv")
+df = pd.read_csv(r"C:\Users\aaktug\Desktop\DuyguAnalizi\1_ilk_temizlenen.csv")
 
 #---------- CardiffNLP 3 sınıflı sentiment modeli ve tokenizer
 model_name = "cardiffnlp/twitter-roberta-base-sentiment"

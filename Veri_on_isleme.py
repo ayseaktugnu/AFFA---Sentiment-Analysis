@@ -20,19 +20,19 @@ def remove_emojis(text):
     return emoji_pattern.sub(r'', text)
 
 
-#-------------Ana Temizleme Fonksiyonu ===
+#-------------Ana Temizleme Fonksiyonu 
 def clean_text(text):
     if not isinstance(text, str):
         return ''
 
-    # Küçük harfe dönüştürme
+    # Küçük harf
     text = text.lower()
 
     # Link, e-mail, @username ve emoji temizleme
-    text = re.sub(r"http\S+|www\S+|https\S+", '', text)  # link
-    text = re.sub(r"\S+@\S+", '', text)                  # e-mail
-    text = remove_mentions(text)                         # @kullanıcı
-    text = remove_emojis(text)                           # emoji
+    text = re.sub(r"http\S+|www\S+|https\S+", '', text)  
+    text = re.sub(r"\S+@\S+", '', text)                 
+    text = remove_mentions(text)                         
+    text = remove_emojis(text)                           
 
     # Özel karakter ve sayı temizleme
     text = re.sub(r"[^a-z\s]", '', text)

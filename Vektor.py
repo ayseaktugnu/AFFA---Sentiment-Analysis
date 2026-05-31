@@ -13,7 +13,7 @@ labels = df["Sentiment"].astype(int).tolist()
 #------FastText vektörlerini yükle
 embedding_path = r"C:\Users\aaktug\Desktop\eskiler\DuyguAnalizi\cc.en.300.vec"
 ft_model = KeyedVectors.load_word2vec_format(embedding_path, binary=False)
-print("Sequence-based FastText vektör işlemi----BAŞLADI!!!!!")
+print("Sequence-based FastText vektör işlemi----BAŞLADI!!!!!") 
 
 # --------- Sequence-based vektörleme (float32)
 def vectorize_sequence(text, model, max_len=max_len, dim=embedding_dim, dtype=DTYPE):

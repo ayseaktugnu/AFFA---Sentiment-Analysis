@@ -16,6 +16,7 @@ Geçersiz duygu etiketlerinin kaldırılması, boş yorumların kaldırılması,
 Önceden eğitilmiş CardiffNLP Twitter-RoBERTa duygu analizi modeli kullanılarak etiket tutarlılığı filtrelemesi gerçekleştirilir. Yalnızca veri setindeki orijinal etiket ile model tahmininin eşleştiği örnekler korunmaktadır.
 
 3- Vektor.py
+
 FastText tabanlı kelime vektörleştirme işlemini gerçekleştirmektedir. Bu aşamada İngilizce için önceden eğitilmiş cc.en.300.bin / cc.en.300.vec FastText modeli kullanılmıştır. 
 
 LSTM3_Attention_AFFA.py

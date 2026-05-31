@@ -29,4 +29,5 @@ Başlıca kütüphaneler:
 TensorFlow, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, PyTorch, Transformers, tqdm
 
 Veri Seti
+
 Bu çalışmada kullanılan veri seti, makalede belirtilen kamuya açık duygu analizi kaynaklarından elde edilmiştir.

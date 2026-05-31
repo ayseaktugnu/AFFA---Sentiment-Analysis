@@ -265,7 +265,7 @@ for i in range(n_classes):
     )
     print(f"{class_names[i]} PR-AUC: {pr_auc[i]:.4f}")
 
-    #----------Necmar testi için kaydedilenler-----------#
+    #----------McNemar testi için kaydedilenler-----------#
 np.save("y_pred_affa.npy", y_pred)
 np.save("y_true.npy", y_true)
 print("AFFA tahminleri kaydedildi.")

@@ -1,8 +1,10 @@
 AFFA-Integrated Hybrid Deep Learning Framework for Explainable Sentiment Analysis
 Bu depo, aşağıdaki çalışmada kullanılan kaynak kodları içermektedir:
+
 Depo İçeriği
 
 Veri_on_isleme.py
+
 Veri seti ön işleme adımlarını gerçekleştirir:
 
 Geçersiz duygu etiketlerinin kaldırılması
@@ -16,9 +18,11 @@ Fazla boşlukların temizlenmesi
 
 
 Tutarsiz_Etiket_Belirleme.py
+
 Önceden eğitilmiş CardiffNLP Twitter-RoBERTa duygu analizi modeli kullanılarak etiket tutarlılığı filtrelemesi gerçekleştirilir. Yalnızca veri setindeki orijinal etiket ile model tahmininin eşleştiği örnekler korunur.
 
 LSTM3_Attention_AFFA.py
+
 Önerilen AFFA-entegreli LSTM (3 Katmanlı)–Attention mimarisini içerir:
 
 Adaptive Feature Fusion Architecture (AFFA)

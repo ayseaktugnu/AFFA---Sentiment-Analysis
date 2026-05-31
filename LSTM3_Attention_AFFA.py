@@ -234,7 +234,7 @@ for i in range(n_classes):
 plt.plot(
     fpr["macro"], tpr["macro"],
     linestyle="--", lw=3,
-    label=f"Macro-average (AUC={roc_auc['macro']:.4f})"
+    label=f"Macro-average (AUC={macro_auc:.4f})"
 )
 
 # Random çizgisi
